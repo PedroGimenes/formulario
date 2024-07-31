@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <style>
+        fieldset{
+            border: solid #f00 8px;
+        }
+        legend{
+            color: blue;
+            font-weight: bold;
+        }
+        .radio_masc{
+            color: blue;
+        }
+        .radio_fem{
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <h2>CADASTRO DE CLIENTES</h2>
+    <form>
+        <fieldset>
+            <legend>Dados Pessoais</legend>
+            <p>Nome: <input type="text"></p>
+            <p>Email: <input type="text"></p>
+        </fieldset>
+        <p>Sexo:</p>
+        <p><input type="radio" name="abacaxi"> <span class="radio_masc">Masculino</span> <input class="radio_fem" type="radio" name="abacaxi"><span class="radio_fem">Feminino</span> </p>
+        <p>Hobbies:</p>
+        <p><input type="checkbox"> Estudar</p>
+        <p><input type="checkbox"> Domir</p>
+        <p><input type="checkbox"> Ficar Acordado</p>
+        <p>Sugestões:</p>
+        <textarea name="" id="" cols="30" rows="10"></textarea>
+        <br>
+        <input type="submit" value="ENVIAR">
+        
+
+
+    </form>
+</body>
+</html>
